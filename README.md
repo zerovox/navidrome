@@ -1,3 +1,13 @@
+# Fork of Navidrome:
+
+This fork exists to hold a couple of additions to the existing UI, which is currently not accepting new features in lieu of the new updated UI.
+
+Current differences:
+- "Add Track" button on the Playlist Page
+- "Select Track(s)" dialog component
+
+---
+
 <a href="https://www.navidrome.org"><img src="resources/logo-192x192.png" alt="Navidrome logo" title="navidrome" align="right" height="60px" /></a>
 
 # Navidrome Music Server &nbsp;[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Tired%20of%20paying%20for%20music%20subscriptions%2C%20and%20not%20finding%20what%20you%20really%20like%3F%20Roll%20your%20own%20streaming%20service%21&url=https://navidrome.org&via=navidrome)
