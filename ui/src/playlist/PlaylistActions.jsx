@@ -29,7 +29,8 @@ import { M3U_MIME_TYPE, REST_URL } from '../consts'
 import PropTypes from 'prop-types'
 import { formatBytes } from '../utils'
 import config from '../config'
-import { ToggleFieldsMenu } from '../common'
+import { canChangeTracks, ToggleFieldsMenu } from '../common'
+import AddTracksButton from './AddTracksButton'
 
 const useStyles = makeStyles({
   toolbar: { display: 'flex', justifyContent: 'space-between', width: '100%' },
@@ -139,6 +140,9 @@ const PlaylistActions = ({ className, ids, data, record, ...rest }) => {
           >
             <RiPlayListAddFill />
           </Button>
+          {canChangeTracks(record) && (
+            <AddTracksButton playlistId={record.id} />
+          )}
           {config.enableSharing && (
             <Button onClick={handleShare} label={translate('ra.action.share')}>
               <ShareIcon />

@@ -222,13 +222,18 @@
         "makePrivate": "Make Private",
         "searchOrCreate": "Search playlists or type to create new...",
         "pressEnterToCreate": "Press Enter to create new playlist",
-        "removeFromSelection": "Remove from selection"
+        "removeFromSelection": "Remove from selection",
+        "addTracks": "Add Tracks",
+        "searchTracks": "Search by track, artist or album..."
       },
       "message": {
         "duplicate_song": "Add duplicated songs",
         "song_exist": "There are duplicates being added to the playlist. Would you like to add the duplicates or skip them?",
         "noPlaylistsFound": "No playlists found",
-        "noPlaylists": "No playlists available"
+        "noPlaylists": "No playlists available",
+        "searchForTracks": "Type to search for tracks to add",
+        "noTracksFound": "No tracks found",
+        "tooManyTracks": "Showing the first %{count} matches. Refine your search to see more."
       }
     },
     "radio": {
